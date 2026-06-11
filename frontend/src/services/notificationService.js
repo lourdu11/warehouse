@@ -3,7 +3,7 @@
  * Axios wrappers for the notification API endpoints.
  */
 
-const BASE = process.env.REACT_APP_API_URL ? `${process.env.REACT_APP_API_URL}/auth` : "http://localhost:8000/api/auth";
+const BASE = "https://warehouse-backend-uajs.onrender.com/api/auth";
 
 function authHeaders() {
   const token = sessionStorage.getItem("accessToken");
