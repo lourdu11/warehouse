@@ -63,7 +63,8 @@ def has_permission(user, model_name, action):
 
 
 def generate_otp():
-    return str(random.randint(100000, 999999))
+    # TEMPORARY FIX: Hardcode OTP to 123456 because Render Free Tier blocks SMTP ports
+    return "123456"
 
 
 def send_otp_email(email, purpose):
@@ -80,12 +81,12 @@ def send_otp_email(email, purpose):
         is_used=False
     )
 
-    try:
-        send_mail(
-            subject="Your OTP Code",
-            message=f"Your OTP is {otp_code}. It expires in 5 minutes.",
-            from_email=None,
-            recipient_list=[email],
-        )
-    except Exception as e:
-        print(f"Failed to send email: {e}")
+    # try:
+    #     send_mail(
+    #         subject="Your OTP Code",
+    #         message=f"Your OTP is {otp_code}. It expires in 5 minutes.",
+    #         from_email=None,
+    #         recipient_list=[email],
+    #     )
+    # except Exception as e:
+    #     print(f"Failed to send email: {e}")
