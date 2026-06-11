@@ -112,7 +112,7 @@ SIMPLE_JWT = {
 
 
 #  CORS
-FRONTEND_URL = os.environ.get('FRONTEND_URL', 'https://warehouse-phi-six.vercel.app')
+FRONTEND_URL = os.environ.get('FRONTEND_URL', 'https://warehouse-phi-six.vercel.app').rstrip('/')
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://192.168.1.10:3000",
