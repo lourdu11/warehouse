@@ -1,0 +1,8 @@
+SystemCheckError: System check identified some issues:
+
+ERRORS:
+products.Product.zone: (fields.E300) Field defines a relation with model 'inventory.Zone', which is either not installed, or is abstract.
+products.Product.zone: (fields.E307) The field products.Product.zone was declared with a lazy reference to 'inventory.zone', but app 'inventory' isn't installed.
+
+System check identified 2 issues (0 silenced).
+

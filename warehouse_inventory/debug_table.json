@@ -1,0 +1,79 @@
+[
+  [
+    "Product Name",
+    "Description",
+    "SKU",
+    "Price (USD)",
+    "Lead Time (Days)"
+  ],
+  [
+    "Wireless Optical Mouse",
+    "2.4GHz Wireless Mouse, 1600 DPI",
+    "WM-001",
+    "22.50",
+    "5"
+  ],
+  [
+    "Mechanical Keyboard",
+    "RGB Mechanical Keyboard, Blue Switches",
+    "KB-001",
+    "68.00",
+    "7"
+  ],
+  [
+    "USB-C Cable 2m",
+    "Fast Charging USB-C Cable, 60W",
+    "CBL-002",
+    "10.50",
+    "3"
+  ],
+  [
+    "Laptop Stand",
+    "Aluminum Laptop Stand, Adjustable",
+    "STD-001",
+    "35.00",
+    "4"
+  ],
+  [
+    "HDMI Cable 1.8m",
+    "4K HDMI Cable, High Speed",
+    "HDMI-001",
+    "8.50",
+    "2"
+  ],
+  [
+    "Gaming Mouse Pad",
+    "Large RGB Gaming Mouse Pad",
+    "MP-001",
+    "15.00",
+    "5"
+  ],
+  [
+    "USB Hub 4-Port",
+    "USB 3.0 Hub with Ethernet",
+    "HUB-001",
+    "25.00",
+    "6"
+  ],
+  [
+    "Webcam HD",
+    "1080p HD Webcam with Microphone",
+    "CAM-001",
+    "45.00",
+    "8"
+  ],
+  [
+    "Bluetooth Speaker",
+    "Portable Bluetooth Speaker",
+    "SPK-001",
+    "30.00",
+    "5"
+  ],
+  [
+    "Power Bank 10000mAh",
+    "Fast Charging Power Bank",
+    "PB-001",
+    "20.00",
+    "4"
+  ]
+]
